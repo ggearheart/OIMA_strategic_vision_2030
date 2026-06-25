@@ -101,6 +101,36 @@ body {
 }
 
 .statement h3 { margin: 0 0 8px; color: var(--blue); }
+.statement--full { grid-column: 1 / -1; }
+.statement--full p { font-size: 1.15rem; }
+
+.subhead {
+  font-size: 1.4rem;
+  color: var(--navy);
+  margin: 48px 0 20px;
+}
+
+.values {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.value {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.value h4 {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-size: 1.1rem;
+}
+
+.value p { margin: 0; color: var(--muted); }
 
 /* Cards */
 .cards {
