@@ -190,6 +190,20 @@ body {
 
 .card a { color: var(--blue); font-weight: 600; }
 
+.pillar-tag {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--blue);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px;
+}
+
 /* Goals */
 .goals { list-style: none; padding: 0; margin: 0; }
 
