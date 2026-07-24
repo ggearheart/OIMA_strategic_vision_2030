@@ -88,6 +88,8 @@ body {
   margin: 0 0 40px;
 }
 
+.section-lede a { color: var(--blue); font-weight: 600; }
+
 /* Statement grid */
 .statement-grid {
   display: grid;
